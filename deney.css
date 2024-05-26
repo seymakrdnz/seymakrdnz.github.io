@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI';
+  }
+  
+  .card {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #04ba77;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 5px;
+  }
+  
+  .card-header {
+    color: #04ba77;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    border-bottom: 1px solid #04ba77;
+    background-color: #c2f3e1;
+    padding: 5px 10px;
+  }
+  
+  .card-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+  
+  .material-icons {
+    font-size: 36px;
+    color: #04ba77;
+    margin-bottom: 5px;
+  }
+  
+  .main-description {
+    color: #04ba77;
+    font-size: 12px;
+    text-align: center;
+  }
